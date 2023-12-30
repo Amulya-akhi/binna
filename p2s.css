@@ -1,0 +1,52 @@
+/* Style to hide all images by default 
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.slideshow img {
+    display: none;
+    padding: 10px;
+    max-width: 50%;
+    height: auto;
+}
+
+Style for the active image 
+.slideshow img.active {
+    display: block;
+}*/
+
+/* styles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Adjust the padding as needed */
+    border: 1px solid #ccc; /* Optional: Add a border for better visualization */
+    max-width: 600px; /* Set a maximum width for the slideshow */
+}
+
+.slideshow img {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners for aesthetics */
+}
+
+.slideshow img.active {
+    display: block;
+}
