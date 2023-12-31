@@ -22,6 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // After slideshow, return to the first page after 9 seconds (adjust as needed)
     setTimeout(function () {
         clearInterval(slideshowInterval); // Stop the slideshow
-        window.location.href = "fam1.html"; // Replace "firstPage.html" with the actual filename of your first page
+        window.location.href = "index.html"; // Replace "firstPage.html" with the actual filename of your first page
     }, 45000);
 });
